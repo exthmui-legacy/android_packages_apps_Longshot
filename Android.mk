@@ -12,8 +12,8 @@ LOCAL_REQUIRED_MODULES := org.lineageos.screenshot.xml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := org.lineageos.screenshot.xml
+LOCAL_MODULE := org.mokee.screenshot.xml
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/permissions
-LOCAL_SRC_FILES := prebuilt/org.lineageos.screenshot.xml
+LOCAL_SRC_FILES := prebuilt/org.mokee.screenshot.xml
 include $(BUILD_PREBUILT)
